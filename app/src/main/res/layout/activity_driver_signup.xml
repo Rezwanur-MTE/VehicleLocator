@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverSignup">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/signUpEmailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:ems="10"
+            android:hint="Email plz"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signUpPasswordEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:ems="10"
+            android:hint="password plz"
+            android:inputType="numberPassword" />
+        <Button
+            android:id="@+id/signUpButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/signInTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="             Aren't you Sign Up?? Log in"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="77dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

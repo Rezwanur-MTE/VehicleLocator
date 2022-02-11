@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "456954270803",
+    "firebase_url": "https://vehiclelocator-5ffa0.firebaseio.com",
+    "project_id": "vehiclelocator-5ffa0",
+    "storage_bucket": "vehiclelocator-5ffa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456954270803:android:3da903a6085d401497e2a6",
+        "android_client_info": {
+          "package_name": "com.example.vehiclelocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456954270803-39ef6ctc22ccq4loqq648hh0vhi6dmq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0xNnJouaWfRP2tvKGjMTqE97-ZBwRi9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456954270803-39ef6ctc22ccq4loqq648hh0vhi6dmq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

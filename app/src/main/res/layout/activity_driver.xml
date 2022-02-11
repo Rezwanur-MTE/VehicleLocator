@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:text="WELCOME_plz, Login"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="533dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="197dp">
+
+        <EditText
+            android:id="@+id/signInEmailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:ems="10"
+            android:hint="Email plz"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signInPasswordEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:ems="10"
+            android:hint="Password plz"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/signInButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Log In" />
+
+        <TextView
+            android:id="@+id/signUpTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="            Are you not Registered? Sign Up"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="422dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

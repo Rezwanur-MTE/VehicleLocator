@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:text="WELCOME, Login first "
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="533dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="197dp">
+
+        <EditText
+            android:id="@+id/signInEmailEditTextId2"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:ems="10"
+            android:hint="Dude enter your Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signInPasswordEditTextId2"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:ems="10"
+            android:hint="Dude enter your key and press the map"
+            android:inputType="numberPassword" />
+
+        <ImageButton
+            android:id="@+id/signInButtonId2"
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/stulogin" />
+
+        <TextView
+            android:id="@+id/signUpTextViewId2"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:textStyle="bold"
+            android:text="        Hey RUETian! Are you not Registered? click to Sign up" />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
